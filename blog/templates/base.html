@@ -22,7 +22,12 @@
 
 <body>
  <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
-   <a class="navbar-brand" href="#">Mój blog</a>
+   <a class="navbar-brand" href="/">Mój blog</a>
+   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault"
+     aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+     <span class="navbar-toggler-icon"></span>
+   </button>
+   <a class="navbar-brand" href="/new-post/">Nowy post</a>
    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault"
      aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
      <span class="navbar-toggler-icon"></span>
@@ -37,6 +42,19 @@
      </form>
    </div>
  </nav>
+
+ {% with messages = get_flashed_messages() %}
+ {% if messages %}
+   {% for message in messages %}
+     <div class="alert alert-info mt-3" role="alert">
+       {{ message }}
+       <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+         <span aria-hidden="true">&times;</span>
+       </button>
+     </div>
+   {% endfor %}
+ {% endif %}
+ {% endwith %}
 
  <main role="main" class="container">
 
