@@ -5,3 +5,8 @@ Main page for blog might be on below address:
 
 Heroku page for blog is on below address:
 > <https://blog-pl-kodi.herokuapp.com/>
+
+L:
+admin
+H:
+1111
