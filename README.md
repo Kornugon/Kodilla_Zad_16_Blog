@@ -1,1 +1,7 @@
-# Kodilla_Zad_16_Blog
+# Kodilla_Zad_16_3_Blog
+
+Main page for blog might be on below address:
+> <http://127.0.0.1:5000/>
+
+Heroku page for blog is on below address:
+> <http:>
