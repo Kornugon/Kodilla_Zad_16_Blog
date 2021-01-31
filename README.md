@@ -4,4 +4,4 @@ Main page for blog might be on below address:
 > <http://127.0.0.1:5000/>
 
 Heroku page for blog is on below address:
-> <http:>
+> <https://blog-pl-kodi.herokuapp.com/>
